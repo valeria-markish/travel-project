@@ -109,6 +109,8 @@ h7 {
 
 footer {
   padding: 100px 0 92px 0;
+  background-color: #272044;
+  opacity: 0.9;
 }
 h8 {
   font-size: 20px;
@@ -122,4 +124,10 @@ footer p {
   font-weight: 400;
   line-height: normal;
   opacity: 0.6;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
 }
