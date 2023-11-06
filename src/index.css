@@ -140,6 +140,9 @@ h7 {
   text-transform: uppercase;
   border: none;
 }
+.section-2 button:hover {
+  cursor: pointer;
+}
 .section-3 {
   background-color: #12101d;
   padding: 100px;
@@ -175,16 +178,28 @@ h8 {
   font-weight: 700;
   line-height: normal;
 }
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+footer li a,
+li a:visited {
+  opacity: 0.6;
+}
+footer a,
+footer a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  font-weight: 700;
+}
 footer p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   opacity: 0.6;
-}
-footer ul {
-  padding: 0;
-}
-footer li {
-  list-style: none;
 }
