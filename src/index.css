@@ -39,10 +39,14 @@ header button {
 }
 .section-1 {
   background-color: #12101d;
-  padding: 100px 0;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
 }
 .section-1 img {
-  width: 570px;
+  width: 100%;
+  aspect-ratio: 7 / 9;
 }
 h5 {
   font-size: 16px;
@@ -67,21 +71,46 @@ h4 {
   line-height: normal;
   opacity: 0.5;
   margin: 18px 0 0 0;
+  text-align: justify;
 }
 .section-2 {
   background-color: #181525;
+  padding: 100px;
 }
+.section-2 h4,
+h5 {
+  text-align: center;
+}
+.maps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+.section-2 img {
+  width: 50%;
+  aspect-ratio: 2/1.7;
+}
+.google-map {
+  width: 50%;
+  aspect-ratio: 2/1.7;
+}
+
 .map-1,
 .map-2,
 .map-3 {
   background: #272435;
   box-shadow: 20px 20px 40px 0px rgba(7, 5, 19, 0.2);
 }
+.section-2 .info {
+  padding: 24px 32px;
+}
 h6 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0;
 }
 h7 {
   font-size: 13px;
@@ -100,11 +129,30 @@ h7 {
 .section-2 button {
   background-color: #462cb2;
   padding: 16px 32px;
-  align-self: stretch;
-  margin: 16px 32px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: none;
 }
 .section-3 {
   background-color: #12101d;
+  padding: 100px;
+}
+.section-3 h4,
+h5 {
+  text-align: center;
+}
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 30px;
 }
 .photo-gallery img {
   width: 100%;
@@ -112,9 +160,14 @@ h7 {
 }
 
 footer {
-  padding: 100px 0 92px 0;
   background-color: #272044;
   opacity: 0.9;
+  padding: 100px 170px;
+}
+.footers {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
 }
 h8 {
   font-size: 20px;
