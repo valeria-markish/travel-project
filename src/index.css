@@ -163,8 +163,8 @@ h5 {
 }
 
 footer {
-  background-color: #272044;
-  opacity: 0.9;
+  background: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)),
+    url("../images/photo-tokyo-6.jpeg");
   padding: 100px 170px;
 }
 .footers {
