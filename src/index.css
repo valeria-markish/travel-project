@@ -145,8 +145,6 @@ footer {
   background: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)),
     url("../images/photo-tokyo-6.jpeg");
   padding: 100px 170px;
-}
-.footers {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 60px;
@@ -195,7 +193,7 @@ footer a:hover {
   .footers {
     grid-template-columns: 1fr;
   }
-  .footers {
+  footer {
     grid-gap: 30px;
   }
 }
