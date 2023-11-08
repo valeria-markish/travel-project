@@ -124,7 +124,7 @@ header button {
 .map-3 button {
   margin-top: 36px;
 }
-.section-2 button:hover {
+button:hover {
   cursor: pointer;
 }
 .section-3 {
